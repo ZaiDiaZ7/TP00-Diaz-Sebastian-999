@@ -32,7 +32,8 @@ public class ProjectDemo {
 	        System.out.println( "El resultado de la division es: " + acalculator.resolverdivision());
 	        //multiplicacion
 	        System.out.println( "El resultado de la multiplicacion es: " + acalculator.resolvermultiplicacion());
-
+	        System.out.println( "El resultado de la multiplicacion es: " + acalculator.resolverpot());
+	        System.out.println( "El resultado de la multiplicacion es: " + acalculator.resolvesqroot2());
 	}
 	
 }

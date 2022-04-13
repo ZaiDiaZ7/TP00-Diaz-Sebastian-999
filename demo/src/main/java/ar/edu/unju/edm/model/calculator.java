@@ -42,4 +42,24 @@ public class calculator {
 	    return numbera * numberb;
 
 	}
+	public double resolverpot() {
+		return Math.pow(numbera,numberb);
+		}
+		public double solvesqroot() { //borrar
+
+		return Math.sqrt(numbera);
+		}
+		public float solvesqroot3() { // numbera es el radicando y numberb el indice
+
+			// para resolver se eleva el radicando a la potencia del exponente del radicando sobre el indice
+			double base,exp;
+			base = numbera;
+			exp = numberb;
+			
+			return (float) Math.pow(base, 1 / exp);
+		}
+		public double resolvesqroot2() { // borrar
+
+		return Math.sqrt(numberb);
+		}
 }
