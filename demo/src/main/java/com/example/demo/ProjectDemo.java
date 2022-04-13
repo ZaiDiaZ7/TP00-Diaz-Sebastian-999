@@ -25,15 +25,16 @@ public class ProjectDemo {
 	        calculator acalculator = new calculator(); // metodo constructor
 	        acalculator.setNumbera(4);
 	        acalculator.setNumberb(2);
-	        System.out.println( "El resultado de la suma es: " + acalculator.resolveplus());
+	        System.out.println( "El resultado de la suma es: " + acalculator.resolverplus());
 	        //resta
 	        System.out.println( "El resultado de la resta es: " + acalculator.resolveresta());
 	        //division
 	        System.out.println( "El resultado de la division es: " + acalculator.resolverdivision());
 	        //multiplicacion
 	        System.out.println( "El resultado de la multiplicacion es: " + acalculator.resolvermultiplicacion());
-	        System.out.println( "El resultado de la multiplicacion es: " + acalculator.resolverpot());
-	        System.out.println( "El resultado de la multiplicacion es: " + acalculator.resolvesqroot2());
+	        System.out.println( "El resultado de la potencia es: " + acalculator.resolverpot());
+	        System.out.println( "El resultado de la raiz es: " + acalculator.resolversqroot3());
+	        
 	}
 	
 }

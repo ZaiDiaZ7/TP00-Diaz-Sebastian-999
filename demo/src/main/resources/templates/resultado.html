@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"> 
+<head>
+<meta charset="ISO-8859-1">
+<title>resultado</title>
+</head>
+<body>
+<h1>Resultado</h1>
+
+	<h2>El resultado de la suma es: <span th:text ="${resultSum}"></span></h2> <!-- Con thymeleaf se pueden utilizar variables en html -->
+	<h2>El resultado de la resta es: <span th:text ="${resultSub}"></span></h2>
+	<h2>El resultado de la multiplicacion es: <span th:text ="${resultMult}"></span></h2>
+	<h2>El resultado de la division es: <span th:text ="${resultDiv}"></span></h2>
+	<h2>El resultado de la potencia es: <span th:text ="${resultPot}"></span></h2>
+	<h2>El resultado de la raiz es: <span th:text ="${resultRaiz}"></span></h2>
+
+<a href="menu">Volver al menu</a> <!-- llamado a menu, NO al nombre de la pagina -->
+</body>
+</html>

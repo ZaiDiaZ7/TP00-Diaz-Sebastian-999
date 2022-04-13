@@ -25,7 +25,7 @@ public class calculator {
 	}
 	 
 
-	public int resolveplus() {
+	public int resolverplus() {
 	    return numbera + numberb;
 
 	}
@@ -58,7 +58,7 @@ public class calculator {
 			
 			return (float) Math.pow(base, 1 / exp);
 		}
-		public double resolvesqroot2() { // borrar
+		public double resolversqroot3() { // borrar
 
 		return Math.sqrt(numberb);
 		}
